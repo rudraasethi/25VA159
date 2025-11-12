@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Student Registration Form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>body{font-family:Segoe UI,Arial;margin:20px}.box{max-width:720px;margin:0 auto}label{display:block;margin:.5rem 0}input,select,textarea{width:100%;padding:.5rem;border:1px solid #ccc;border-radius:4px}fieldset{border:0;padding:0}</style>
+</head>
+<body>
+  <div class="box">
+    <h1 style="text-align:center">Student Registration Form</h1>
+    <hr>
+
+    <form method="post" action="submit.html" autocomplete="on">
+      <label for="fullname">Full Name:</label>
+      <input id="fullname" name="fullname" type="text" placeholder="Enter your full name" required>
+
+      <label for="email">Email:</label>
+      <input id="email" name="email" type="email" placeholder="Enter valid email address" required>
+
+      <label for="password">Password:</label>
+      <input id="password" name="password" type="password" placeholder="Enter password" required>
+
+      <label>Gender:</label>
+      <fieldset>
+        <label><input type="radio" name="gender" value="male" required> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+        <label><input type="radio" name="gender" value="other"> Other</label>
+      </fieldset>
+
+      <label for="course">Course:</label>
+      <select id="course" name="course" required>
+        <option value="">-- Select Course --</option>
+        <option value="btech">B.Tech</option>
+        <option value="bca">BCA</option>
+        <option value="mba">MBA</option>
+        <option value="mca">MCA</option>
+      </select>
+
+      <label for="contact">Contact No:</label>
+      <input id="contact" name="contact" type="tel" placeholder="Enter phone number" required>
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="4" placeholder="Enter your address" required></textarea>
+
+      <div style="text-align:center;margin-top:.8rem">
+        <button type="submit" style="background:#0077cc;color:#fff;padding:.5rem 1rem;border-radius:4px">Register</button>
+        <button type="reset" style="background:#eee;padding:.5rem 1rem;border-radius:4px">Clear</button>
+      </div>
+    </form>
+
+    <hr>
+    <p style="text-align:center">&copy; 2025 Student Registration Portal</p>
+  </div>
+</body>
+</html>
+Here’s the HTML  code: Index.html 
+
